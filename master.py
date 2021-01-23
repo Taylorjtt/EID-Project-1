@@ -42,6 +42,8 @@ class Master:
                     print("ErrorCount: " + errorCount)
             print(tabulate(tableData, headers=["System", "Low", "Avg", "High", "Error Count", "Alarm Count"]))
 
+    # function to return the highest
+    # temperature in the dataset passed to it
     def getHighTemp(self, data):
         high = None
         for sample in data:
@@ -55,6 +57,8 @@ class Master:
                 self.errorCount += 1
         return str(high)
 
+    # function to return the lowest
+    # temperature in the dataset passed to it
     def getLowTemp(self, data):
         low = None
         for sample in data:
@@ -68,6 +72,8 @@ class Master:
                 self.errorCount += 1
         return str(low)
 
+    # function to return the average
+    # temperature in the dataset ignoring N/A data
     def getAvg(self, data):
         # sum of the average
         total = 0

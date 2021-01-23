@@ -42,7 +42,7 @@ class TempSensor:
         # 10 percent of the time
         elif 1 > probability >= 0.9:
             # sensor will return NA
-            return "N/A";
+            return "N/A"
 
     def updateFile(self, data):
         # check if file already exisits
@@ -52,21 +52,21 @@ class TempSensor:
             initialData = {"samples": []}
             json.dump(initialData, newFile, indent=4)
             newFile.close()
-        json_file = open(str(self.number) + ".txt", 'r+');
+        json_file = open(str(self.number) + ".txt", 'r+')
         try:
-            file_data = json.load(json_file);
+            file_data = json.load(json_file)
         except ValueError as error:
             print(error)
-            print("File Is Empty, Writing initial Data");
-            json_file.seek(0);
+            print("File Is Empty, Writing initial Data")
+            json_file.seek(0)
             json.dump(data, json_file, indent=4)
-            json_file.close();
+            json_file.close()
         else:
             # append data to the end of the file
-            file_data["samples"].append(data);
-            json_file.seek(0);
+            file_data["samples"].append(data)
+            json_file.seek(0)
             json.dump(file_data, json_file, indent=4)
-            json_file.close();
+            json_file.close()
 
     def begin(self):
         while True:
@@ -81,5 +81,5 @@ class TempSensor:
                     "alarm count": self.alarmCount,
                     "error count": self.errorCount
                     }
-            self.updateFile(data);
+            self.updateFile(data)
             time.sleep(self.sleepTime)
