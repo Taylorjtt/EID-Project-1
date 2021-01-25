@@ -12,14 +12,15 @@ from os import path
 
 
 class TempSensor:
-    alarmThreshold = 5
-    sleepTime = 1  # seconds
+    alarmThreshold = 5 # degrees F
+    sleepTime = 10     # seconds
 
     def __init__(self, number, nominalTemp):
-        self.number = number
-        self.nominalTemp = nominalTemp
-        self.alarmCount = 0
-        self.errorCount = 0
+        self.number = number 			# Sensor Number
+        self.nominalTemp = nominalTemp		# Nominal Temperature
+        self.alarmCount = 0			# Number of alarm occourences
+        self.errorCount = 0			# Number of error occourences
+	print("Temp Sensor " + str(self.number) + " created")
 
     def readSensor(self):
         # calculate a random number to simulate probabilities
@@ -64,6 +65,7 @@ class TempSensor:
         else:
             # append data to the end of the file
             file_data["samples"].append(data)
+	    # Go to the beginning of the file
             json_file.seek(0)
             json.dump(file_data, json_file, indent=4)
             json_file.close()

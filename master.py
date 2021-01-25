@@ -18,7 +18,6 @@ class Master:
     def begin(self):
         while True:
             time.sleep(self.sleepTime)
-            print("Master Processing has begun")
             # grab all the text files in the directory
             textFiles = glob.glob('*.txt')
             tableData = []
