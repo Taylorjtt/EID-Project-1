@@ -3,7 +3,7 @@ _John Taylor_
 ## Introduction
 This repository includes software that simulates temperature sensors using python. This software was tested on ubuntu 18.0.4 LTS. It was written with Python 3.6.9. In order to run the code you must install the tabulate library
 
-	sudo apt-get install -y python-tabulate
+	sudo apt-get install -y python3-tabulate
 
 once tabulate is installed you may run the project with the following command
 		
