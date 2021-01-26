@@ -31,6 +31,6 @@ Once the begin method is called, the temp sensor will take a sample every 10s an
 The master program looks for  text files in the program directory to read. Every 30 seconds it reads the text files and provides statistics on the last 10 samples as well as error counts and alarm counts. If the master has an alarm, the master alarm count is incremented and displayed
 
 ### Main Program
-The main program creates separate threads to run 3 temperature sensors and the master program.
+The main program creates separate processes to run 3 temperature sensors and the master program.
 
 
