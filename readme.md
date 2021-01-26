@@ -9,6 +9,8 @@ once tabulate is installed you may run the project with the following command
 		
 		python3 main.py
 ## Design
+### Assumptions
+I assumed that the sign of the +/- 8 deg F spike would be the same as the +/- 2 degree noise of the sample. For example if the sample had initial noise of -0.5 degrees and the spike event occoured -8 degrees would be added to the measured temperature
 ### Temperature sensor
 The temperature sensor portion of the project is a python class that simulates a  temperature sensor that is effected by noise and sometimes fails to communicate. 
 - 80% of the time the temp sensor outputs it's (nominal temp) +/- (2 degrees F)
