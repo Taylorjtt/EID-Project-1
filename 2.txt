@@ -1,0 +1,221 @@
+{
+    "samples": [
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:42:09.974676",
+            "temp": "69.49082100663192",
+            "alarm count": 0,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:42:19.984694",
+            "temp": "70.98948185783286",
+            "alarm count": 0,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:42:29.996494",
+            "temp": "70.5605963856185",
+            "alarm count": 0,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:42:40.007669",
+            "temp": "61.945009552908445",
+            "alarm count": 1,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:42:50.019830",
+            "temp": "71.56949246586885",
+            "alarm count": 1,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:43:00.027981",
+            "temp": "69.43379070173268",
+            "alarm count": 1,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:43:10.036973",
+            "temp": "69.75284471843399",
+            "alarm count": 1,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:43:20.049331",
+            "temp": "71.6206029766972",
+            "alarm count": 1,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:43:30.060349",
+            "temp": "69.12138002873533",
+            "alarm count": 1,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:43:40.068170",
+            "temp": "79.13355526225118",
+            "alarm count": 2,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:43:50.078712",
+            "temp": "78.30515091892806",
+            "alarm count": 3,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:44:00.089350",
+            "temp": "60.17461361973628",
+            "alarm count": 4,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:44:10.101841",
+            "temp": "69.93074987144993",
+            "alarm count": 4,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:44:20.115179",
+            "temp": "71.23737698838349",
+            "alarm count": 4,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:44:30.125804",
+            "temp": "68.86628611350677",
+            "alarm count": 4,
+            "error count": 0
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:44:40.139894",
+            "temp": "N/A",
+            "alarm count": 4,
+            "error count": 1
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:44:50.152912",
+            "temp": "69.74759265130251",
+            "alarm count": 4,
+            "error count": 1
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:45:00.163182",
+            "temp": "60.271604540663304",
+            "alarm count": 5,
+            "error count": 1
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:45:10.175159",
+            "temp": "N/A",
+            "alarm count": 5,
+            "error count": 2
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:45:20.185703",
+            "temp": "N/A",
+            "alarm count": 5,
+            "error count": 3
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:45:30.198471",
+            "temp": "70.37059322197909",
+            "alarm count": 5,
+            "error count": 3
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:45:40.207609",
+            "temp": "70.60414823343609",
+            "alarm count": 5,
+            "error count": 3
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:45:50.219567",
+            "temp": "69.28989274471645",
+            "alarm count": 5,
+            "error count": 3
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:46:00.227546",
+            "temp": "69.36917891121068",
+            "alarm count": 5,
+            "error count": 3
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:46:10.235955",
+            "temp": "68.31920995958077",
+            "alarm count": 5,
+            "error count": 3
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:46:20.243703",
+            "temp": "71.40783353468754",
+            "alarm count": 5,
+            "error count": 3
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:46:30.249169",
+            "temp": "68.54352403397442",
+            "alarm count": 5,
+            "error count": 3
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:46:40.259331",
+            "temp": "71.66311244358016",
+            "alarm count": 5,
+            "error count": 3
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:46:50.267295",
+            "temp": "71.40580865667317",
+            "alarm count": 5,
+            "error count": 3
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:47:00.281468",
+            "temp": "69.22046430453807",
+            "alarm count": 5,
+            "error count": 3
+        },
+        {
+            "Sensor Number": 2,
+            "timestamp": "2021-01-25 16:47:10.293148",
+            "temp": "71.93245687517732",
+            "alarm count": 5,
+            "error count": 3
+        }
+    ]
+}
