@@ -12,7 +12,7 @@ from os import path
 
 
 class Master:
-    sleepTime = 5  # seconds
+    sleepTime = 30  # seconds
 
     def __init__(self):
         self.errorCount = 0
@@ -43,6 +43,7 @@ class Master:
                              str(hiCelsius)
                                 , str(errorCount), str(alarmCount)])
                 except OSError:
+                    #if we can't open the file, increase error count
                     print("Could not open/read file:", fileName)
                     errorCount += 1
                     print("ErrorCount: " + errorCount)

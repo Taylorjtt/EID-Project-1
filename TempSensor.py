@@ -12,7 +12,7 @@ from os import path
 
 class TempSensor:
     alarmThreshold = 5  # degrees F
-    sleepTime = 1  # seconds
+    sleepTime = 10  # seconds
 
     def __init__(self, number, nominalTemp):
         self.number = number  # Sensor Number
